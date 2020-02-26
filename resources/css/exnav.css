@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    background: lightblue;
+    padding: 0 80px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li:hover{
+    background: #d68d9a;
+}
+
+nav ul li:hover a{
+    color: #000;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color:black;
+    text-decoration: none;
+}
+
+#loginbtn{
+    background: #FF9100;
+    border: black;
+    border-radius: 0.5;
+    
+}
