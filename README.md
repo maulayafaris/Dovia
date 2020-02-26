@@ -3,7 +3,7 @@
 ## Anggota kelompok PKL
 * Dian Johan
 * Ghadah indri
-* Maulaya Al-Farisi
+* Maulaya AlFarisi
 
 ## Technologies
 Project dibuat dengan:
