@@ -44,15 +44,16 @@
     }
 
     #papanbox{
-        background-image: url("images/papanboxbg.jpg");
+        background-image: url("https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818300/papanboxbg_y8zhzq.jpg");
         background-color: skyblue;
     }
 
 </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-md navbar-dark " style="background-image: url('images/papanboxbg.jpg');">
-    <a class="navbar-brand ml-3 " href="index.php"><img src="images/logov2.png" width="180" height="50" /></a>
+<!-- File yang sudah mencoba menggunakan cloudinary.com -->
+<nav class="navbar navbar-expand-md navbar-dark " id="papanbox">
+    <a class="navbar-brand ml-3 " href="index.php"><img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582817859/logov2_nw2od7.png" width="180" height="50" /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -80,8 +81,8 @@
 </nav>
 
 <div class="container-fluid" id="papanbox">
-    <p id="papankata">BELAJAR GRAMMAR LEBIH MUDAH</p>
-    <p id="papankata">DI</p><img height="100" width="250"  style="display: block; margin: auto;" src="images/logov2.png"><br/>
+    <p id="papankata">BELAJAR BAHASA INGGRIS LEBIH MUDAH</p>
+    <p id="papankata">DI</p><img height="100" width="250"  style="display: block; margin: auto;" src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582817859/logov2_nw2od7.png"><br/>
     <a href="#"><button  class="btn-lg btn-outline-primary"  style="display: block; margin: auto; background: transparent; color: white;border-width: 2.5px;border-color:white;">MULAI BELAJAR</button></a><br/><br/>
 </div>
 
@@ -102,7 +103,7 @@
 </div>
 
 <div class="second-big-box">
-    <img src="images/seminar.png"/>
+    <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818179/seminar_shspac.png"/>
     <p>Seminar dan Pelatihan</p>
     <p>Kami sudah mengadakan seminar dan pelatihan di berbagai  universitas-universitas di Indonesia diantaranya : 
     IU, UBT, UMG, ATIKOM, UJN, BU, UMN, dll dan juga di beberapa perusahaan seperti : PT. Subur Mandiri, PT. Tekom, 
@@ -116,7 +117,7 @@
     <button id="buttonleft"></button>
     
     <div class="pendapat">
-        <img src="images/people.png"/>
+        <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818227/people_ocdxa9.png"/>
         <p>Nama Lengkap</p>
         <p>"Lorem ipsum dolor sit amet, 
         consectetur adipiscing elit, 
@@ -125,7 +126,7 @@
         </p>
     </div>
     <div class="pendapat">
-        <img src="images/people.png"/>
+        <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818227/people_ocdxa9.png"/>
         <p>Nama Lengkap</p>
         <p>"Lorem ipsum dolor sit amet, 
         consectetur adipiscing elit, 
@@ -134,7 +135,7 @@
         </p>
     </div>
     <div class="pendapat">
-        <img src="images/people.png"/>
+        <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818227/people_ocdxa9.png"/>
         <p>Nama Lengkap</p>
         <p>"Lorem ipsum dolor sit amet, 
         consectetur adipiscing elit, 
@@ -171,8 +172,8 @@
         </div>
         <div class="foot-menu">
             <p>Mobile App</p>
-            <a href=""><img src="images/gplay.png"/></a><br/>
-            <a href=""><img src="images/appstore.png"/></a>
+            <a href=""><img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818246/gplay_hq2aje.png"/></a><br/>
+            <a href=""><img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818245/appstore_xrs27j.png"/></a>
         </div>
     </div>
     <p>© 2020 Maulaya Inc. All rights reserved.</p>
