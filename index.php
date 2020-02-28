@@ -84,33 +84,51 @@
     <a href="#"><button  class="btn-lg btn-outline-primary"  style="display: block; margin: auto; background: transparent; color: white;border-width: 2.5px;border-color:white;">MULAI BELAJAR</button></a><br/><br/>
 </div>
 
-<div class="container-fluid row">
+<div class="container mt-3 mb-3">
 <!-- Selain flex, bisa pakai col-md-4 juga -->
-    <div class="col-md-4">
-        <p>Punya Pertanyaan?</p>
-        <a href="#"><button>Klik Disini</button></a>
-    </div>
-    <div class="col-md-4 ml-1">
-        <p>Butuh Kursus?</p>
-        <a href="#"><button>Klik Disini</button></a>
-    </div>
-    <div class="col-md-3">
-        <p>Kontak Kami</p>
-        <a href="#"><button>Klik Disini</button></a>
+    <div class="row text-center">
+        <div class="col border mr-3">
+            <h4 class="mt-2">Punya Pertanyaan?</h4><br><br><br>
+            <a href="#"><button class="btn btn-primary mb-3">Klik Disini</button></a>
+        </div>
+        <div class="col border mr-3">
+            <h4 class="mt-2">Butuh Kursus?</h4><br><br><br>
+            <a href="#"><button class="btn btn-primary">Klik Disini</button></a>
+        </div>
+        <div class="col border">
+            <h4 class="mt-2">Kontak Kami</h4><br><br><br>
+            <a href="#"><button class="btn btn-primary">Klik Disini</button></a>
+        </div>
     </div>
 </div>
 
-<div class="second-big-box">
-    <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818179/seminar_shspac.png"/>
-    <p>Seminar dan Pelatihan</p>
-    <p>Kami sudah mengadakan seminar dan pelatihan di berbagai  universitas-universitas di Indonesia diantaranya : 
-    IU, UBT, UMG, ATIKOM, UJN, BU, UMN, dll dan juga di beberapa perusahaan seperti : PT. Subur Mandiri, PT. Tekom, 
-    PT. Karya Jaya, PT. Endosa, dll
-    </p> 
-</div>
 
-<div class="thrid-big-box">
-    <p>Pendapat Mereka tentang Kami</p>
+<div class="row">
+    <div class="col">
+            <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818179/seminar_shspac.png" width="100%"/>
+    </div>
+    <div class="col">
+        <h3 class="text-center">
+            Seminar dan Pelatihan
+        </h3>
+        <br><br>
+        <h5>
+            Kami sudah mengadakan seminar dan pelatihan di berbagai  universitas-universitas di Indonesia diantaranya :<br> 
+            IU, UBT, UMG, ATIKOM, UJN, BU, UMN, dll <br>dan juga di beberapa perusahaan seperti : <br>PT. Subur Mandiri, PT. Tekom, 
+            PT. Karya Jaya, PT. Endosa, dll
+        </h5>
+    </div>
+</div> 
+
+
+<div class="container text-center mt-5">
+    <div class="row">
+        <div class="col">
+            <h1>PENDAPAT MEREKA TENTANG KAMI</h1>
+        </div>
+    </div>
+</div>
+    
     
     <button id="buttonleft"></button>
     
