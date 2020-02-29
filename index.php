@@ -41,16 +41,24 @@
         color:white;
     }
 
+    #papanbox-navbar{
+        background-image: url("https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818300/papanboxbg_y8zhzq.jpg");
+        background-color: skyblue;
+        width: 100%;
+    }
+
+
     #papanbox{
         background-image: url("https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818300/papanboxbg_y8zhzq.jpg");
         background-color: skyblue;
+        width: 100%;
     }
 
 </style>
 </head>
 <body>
-<!-- File yang sudah mencoba menggunakan cloudinary.com -->
-<nav class="navbar navbar-expand-md navbar-dark " id="papanbox">
+<!-- File yang sudah mencoba menggunakan cloudinary.com-->
+<nav class="navbar navbar-expand-md navbar-dark" id="papanbox-navbar">
     <a class="navbar-brand ml-3 " href="index.php"><img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582817859/logov2_nw2od7.png" width="180" height="50" /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -78,50 +86,67 @@
     </div>
 </nav>
 
-<div class="container-fluid" id="papanbox">
+<div class="jumbotron jumbotron-fluid pb-3" id="papanbox">
     <p id="papankata">BELAJAR BAHASA INGGRIS LEBIH MUDAH</p>
     <p id="papankata">DI</p><img height="100" width="250"  style="display: block; margin: auto;" src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582817859/logov2_nw2od7.png"><br/>
     <a href="#"><button  class="btn-lg btn-outline-primary"  style="display: block; margin: auto; background: transparent; color: white;border-width: 2.5px;border-color:white;">MULAI BELAJAR</button></a><br/><br/>
 </div>
 
-<div class="container mt-3 mb-3">
+<div class="container mb-5">
 <!-- Selain flex, bisa pakai col-md-4 juga -->
     <div class="row text-center">
-        <div class="col border mr-3">
-            <h4 class="mt-2">Punya Pertanyaan?</h4><br><br><br>
-            <a href="#"><button class="btn btn-primary mb-3">Klik Disini</button></a>
+        <div class="col mt-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h4 class="card-title">Daftar Pertanyaan</h4>
+                    <img class="card-img-top" src="develop-img/question.png" alt="Kursus">
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Klik Disini</a>
+                </div>
+            </div>
         </div>
-        <div class="col border mr-3">
-            <h4 class="mt-2">Butuh Kursus?</h4><br><br><br>
-            <a href="#"><button class="btn btn-primary">Klik Disini</button></a>
+        <div class="col mt-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h4 class="card-title">Butuh Kursus?</h4>
+                    <img class="card-img-top" src="develop-img/teaching.png" alt="Kursus">
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Klik Disini</a>
+                </div>
+            </div>
         </div>
-        <div class="col border">
-            <h4 class="mt-2">Kontak Kami</h4><br><br><br>
-            <a href="#"><button class="btn btn-primary">Klik Disini</button></a>
+        <div class="col mt-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h4 class="card-title">Kontak Kami</h4>
+                    <img class="card-img-top" src="develop-img/phone-book.png" alt="Kursus">
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Klik Disini</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
-
+<div class="container-fluid">
 <div class="row">
     <div class="col">
-            <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818179/seminar_shspac.png" width="100%"/>
+            <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818179/seminar_shspac.png" width="100%" height="100%"/>
     </div>
-    <div class="col">
-        <h3 class="text-center">
+    <div class="col mr-3" style="background-image:url(https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582873172/bg_pemisah_seminar_2x_rjrq1z.png)">
+        <h1 class="text-center mt-3" style="color:white;">
             Seminar dan Pelatihan
-        </h3>
+        </h1>
         <br><br>
-        <h5>
+        <h5 style="color:white;">
             Kami sudah mengadakan seminar dan pelatihan di berbagai  universitas-universitas di Indonesia diantaranya :<br> 
             IU, UBT, UMG, ATIKOM, UJN, BU, UMN, dll <br>dan juga di beberapa perusahaan seperti : <br>PT. Subur Mandiri, PT. Tekom, 
             PT. Karya Jaya, PT. Endosa, dll
         </h5>
     </div>
 </div> 
+</div>
 
-
-<div class="container text-center mt-5">
+<div class="container text-center mt-5 mb-4">
     <div class="row">
         <div class="col">
             <h1>PENDAPAT MEREKA TENTANG KAMI</h1>
@@ -129,70 +154,75 @@
     </div>
 </div>
     
-    
-    <button id="buttonleft"></button>
-    
-    <div class="pendapat">
-        <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818227/people_ocdxa9.png"/>
-        <p>Nama Lengkap</p>
-        <p>"Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt 
-        ut labore et dolore magna aliqua."
-        </p>
+    <!-- <button id="buttonleft"></button> -->
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col dev-1">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="develop-img/1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Dian Johan</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col dev-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="develop-img/4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Ghadah Indri</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col dev-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="develop-img/3.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Maulaya Al-Farisi</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="pendapat">
-        <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818227/people_ocdxa9.png"/>
-        <p>Nama Lengkap</p>
-        <p>"Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt 
-        ut labore et dolore magna aliqua."
-        </p>
-    </div>
-    <div class="pendapat">
-        <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818227/people_ocdxa9.png"/>
-        <p>Nama Lengkap</p>
-        <p>"Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt 
-        ut labore et dolore magna aliqua."
-        </p>
-    </div>
-
-    <button id="buttonright"></button>
+    <!-- <button id="buttonright"></button>-->
 </div>
 
-<div class="foot">
-    <div class="foot-menu">
-        <div class="first-foot-menu">
-            <p>Ex:Menu Foot Title</p>
+<div style="background-color:black; padding: 2px 0px 10px 0px;">
+<div class="container mt-5" style="color:white;">
+    <div class="row">
+        <div class="col">
+            <h5>Ex:Menu Foot Title</h5>
             <p>Ex:Submenu title1</p>
             <p>Ex:Submenu title2</p>
             <p>Ex:Submenu title3</p>
             <p>Ex:Submenu title4</p>
         </div>
-        <div class="second-foot-menu">
-            <p>Ex:Menu Foot Title</p>
+        <div class="col">
+            <h5>Ex:Menu Foot Title</h5>
             <p>Ex:Submenu title1</p>
             <p>Ex:Submenu title2</p>
             <p>Ex:Submenu title3</p>
             <p>Ex:Submenu title4</p>
         </div>
-        <div class="third-foot-menu">
-            <p>Ex:Menu Foot Title</p>
+        <div class="col">
+            <h5>Ex:Menu Foot Title</h5>
             <p>Ex:Submenu title1</p>
             <p>Ex:Submenu title2</p>
             <p>Ex:Submenu title3</p>
             <p>Ex:Submenu title4</p>
         </div>
-        <div class="foot-menu">
-            <p>Mobile App</p>
+        <div class="col">
+            <h4>Mobile App</h4>
             <a href=""><img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818246/gplay_hq2aje.png"/></a><br/>
             <a href=""><img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818245/appstore_xrs27j.png"/></a>
         </div>
     </div>
-    <p>© 2020 Maulaya Inc. All rights reserved.</p>
+    <div class="mt-3 text-center">
+        <p>Dovia Inc <?php echo date('Y'); ?>.</p>
+    </div>
+</div>
 </div>
 </body>
 </html>
