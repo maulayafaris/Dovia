@@ -22,7 +22,10 @@ Project dibuat dengan:
 * Membuat halaman blog
 * Menaruh materi pembelajaran di dalam website
 
-
+## Pembaruan 0.0.1-i (0.1-i)
+* Perubahan Pada Index.php:
+  * Memberikan Shadow di bagian yang termasuk class card
+  * Mengubah hampir semua teks pada website menjadi jenis font 'sf-pro-rounded'
 
 ## Pembaruan 0.0.1-h (0.1-h)
 * Perubahan Pada Index.php :

@@ -1,4 +1,4 @@
-<!-- Kode version 0.1-h -->
+<!-- Kode version 0.1-i -->
 <!Doctype html>
 <html>
 <head>
@@ -97,32 +97,32 @@
 <!-- Selain flex, bisa pakai col-md-4 juga -->
     <div class="row text-center">
         <div class="col mt-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                 <div class="card-body">
-                    <h4 class="card-title">Daftar Pertanyaan</h4>
+                    <h3 class="card-title" style="font-family: 'sf-pro-rounded';">Daftar Pertanyaan</h4>
                     <img class="card-img-top" src="develop-img/question.png" alt="Kursus">
                     <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary">Klik Disini</a>
+                    <a href="#" class="btn btn-primary" style="font-family: 'sf-pro-rounded';">Klik Disini</a>
                 </div>
             </div>
         </div>
         <div class="col mt-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                 <div class="card-body">
-                    <h4 class="card-title">Butuh Kursus?</h4>
+                    <h3 class="card-title" style="font-family: 'sf-pro-rounded';">Butuh Kursus?</h4>
                     <img class="card-img-top" src="develop-img/teaching.png" alt="Kursus">
                     <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary">Klik Disini</a>
+                    <a href="#" class="btn btn-primary" style="font-family: 'sf-pro-rounded';">Klik Disini</a>
                 </div>
             </div>
         </div>
         <div class="col mt-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                 <div class="card-body">
-                    <h4 class="card-title">Kontak Kami</h4>
+                    <h3 class="card-title" style="font-family: 'sf-pro-rounded';">Kontak Kami</h4>
                     <img class="card-img-top" src="develop-img/phone-book.png" alt="Kursus">
                     <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary">Klik Disini</a>
+                    <a href="#" class="btn btn-primary" style="font-family: 'sf-pro-rounded';">Klik Disini</a>
                 </div>
             </div>
         </div>
@@ -134,11 +134,11 @@
             <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818179/seminar_shspac.png" width="100%" height="100%"/>
     </div>
     <div class="col mr-3" style="background-image:url(https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582873172/bg_pemisah_seminar_2x_rjrq1z.png)">
-        <h1 class="text-center mt-3" style="color:white;">
+        <h1 class="text-center mt-3" style="color:white;font-family: 'sf-pro-rounded">
             Seminar dan Pelatihan
         </h1>
         <br><br>
-        <h5 style="color:white;">
+        <h5 style="color:white;font-family: 'sf-pro-rounded">
             Kami sudah mengadakan seminar dan pelatihan di berbagai  universitas-universitas di Indonesia diantaranya :<br> 
             IU, UBT, UMG, ATIKOM, UJN, BU, UMN, dll <br>dan juga di beberapa perusahaan seperti : <br>PT. Subur Mandiri, PT. Tekom, 
             PT. Karya Jaya, PT. Endosa, dll
@@ -150,7 +150,7 @@
 <div class="container text-center mt-5 mb-4">
     <div class="row">
         <div class="col">
-            <h1>PENDAPAT MEREKA TENTANG KAMI</h1>
+            <h1 style="font-family: 'sf-pro-rounded';">PENDAPAT MEREKA TENTANG KAMI</h1>
         </div>
     </div>
 </div>
@@ -159,28 +159,28 @@
     <div class="container mb-4">
         <div class="row">
             <div class="col dev-1">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem;box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <img class="card-img-top" src="develop-img/1.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h4 class="card-title text-center">Dian Johan</h4>
+                        <h4 class="card-title text-center" style="font-family: 'sf-pro-rounded';">Dian Johan</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
             <div class="col dev-2">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <img class="card-img-top" src="develop-img/4.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h4 class="card-title text-center">Ghadah Indri</h4>
+                        <h4 class="card-title text-center" style="font-family: 'sf-pro-rounded';">Ghadah Indri</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
             <div class="col dev-3">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <img class="card-img-top" src="develop-img/3.png" alt="Card image cap">
                     <div class="card-body">
-                        <h4 class="card-title text-center">Maulaya Al-Farisi</h4>
+                        <h4 class="card-title text-center" style="font-family: 'sf-pro-rounded';">Maulaya Al-Farisi</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
