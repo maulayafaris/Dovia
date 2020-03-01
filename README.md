@@ -29,11 +29,15 @@ Project dibuat dengan:
 
 ## Pembaruan 0.0.1-h (0.1-h)
 * Perubahan Pada Index.php :
-* * Bagian "Daftar Pertanyaan", "Butuh kursus", "Kontak Kami" sudah di ubah dengan tipe card, lalu ditambahkan gambar yang di ambil dari website https://www.flaticon.com/ . Kekurangan: Pada tampilan mobile, card masih berada pada posisi kiri dan bukan di tengah. 
-* * Menjadikan Gambar Seminar dan Teks Pendukungnya hampir full width layar. Kekurangan: untuk tampilan mobile masih ikut berdempetan dan bukan menurun ke bawah.
-* * Sub "PENDAPAT MEREKA TENTANG KAMI" sudah di tambahkan stylenya dengan class card. Gambar yang sebelumnya hanya illustrasi orang sekarang sudah diganti menjadi foto para pengembang website dovia. Nama Juga sudah diganti yang awalnya hanya bertuliskan "Full Name", sekarang menjadi nama yang sudah sesuai dengan yang ada di gambar. Untuk Pendapat masih default. Kekurangan: Untuk Tampilan pada mobile masih berada di kiri dan belum ke tengah
-* * Menu Foot sudah di berikan style berupa latar belakang hitam, dan sudah di berikan style berupa: container, row, col, text-center, dsb. Kekurangan: Menu Foot yang terdaftar masih default dari pembuatan awal, belum ada perubahan.
-* * Sampai saat ini website masih berupa website statis 
+  * Bagian "Daftar Pertanyaan", "Butuh kursus", "Kontak Kami" sudah di ubah dengan tipe card, lalu ditambahkan gambar yang di ambil dari website https://www.flaticon.com/ . Kekurangan: Pada tampilan mobile, card masih berada pada posisi kiri dan bukan di tengah. 
+  
+  * Menjadikan Gambar Seminar dan Teks Pendukungnya hampir full width layar. Kekurangan: untuk tampilan mobile masih ikut berdempetan dan bukan menurun ke bawah.
+  
+  * Sub "PENDAPAT MEREKA TENTANG KAMI" sudah di tambahkan stylenya dengan class card. Gambar yang sebelumnya hanya illustrasi orang sekarang sudah diganti menjadi foto para pengembang website dovia. Nama Juga sudah diganti yang awalnya hanya bertuliskan "Full Name", sekarang menjadi nama yang sudah sesuai dengan yang ada di gambar. Untuk Pendapat masih default. Kekurangan: Untuk Tampilan pada mobile masih berada di kiri dan belum ke tengah.
+  
+  * Menu Foot sudah di berikan style berupa latar belakang hitam, dan sudah di berikan style berupa: container, row, col, text-center, dsb. Kekurangan: Menu Foot yang terdaftar masih default dari pembuatan awal, belum ada perubahan.
+  
+  * Sampai saat ini website masih berupa website statis 
 
 ## Pembaruan 0.0.1 (0.1)
 * Menghapus file yang tidak akan di gunakan
