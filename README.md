@@ -26,6 +26,10 @@ Project dibuat dengan:
 ## Pembaruan 0.2
 * Menambahkan file baru bernama login.php dan login.css
 * Tampilan login di ambil dari link https://bootsnipp.com/snippets/dldxB dengan author bernama Raj78
+* merubah file index.php 
+* membuat univstyle.css yang berfungsi sebagai file css yang di panggil untuk keperluan seperti font, navbar, dan lainnya. 
+* menambahkan file logo versi berwarna orange di folder develop-img.
+* menambahkan file bootstrap versi minimal di folder resources/css
 
 ## Pembaruan 0.0.1-i (0.1-i)
 * Perubahan Pada Index.php:
