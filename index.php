@@ -3,6 +3,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dovia Homepage</title>
 <!-- Bootstrap CSS -->
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 <!-- Offline Bootstrap CSS -->
@@ -16,49 +17,12 @@
 <!-- OFFLINE Javascript -->
 
 <!-- Mie Style -->
-<style>
-    @import url('https://www.fontify.me/wf/5cfc1e12b698845fbc0ee9ac1b686dfd');
+<link rel="stylesheet" href="resources/css/univstyle.css">
 
-    @font-face {
-            font-family: "sf-pro-rounded";
-            src: url("resources/font/sf-pro-rounded.ttf") format("truetype");
-        }
-
-    body{
-        background-color:#F8F8F8;
-    }
-
-    #menu-nav{
-        /* color: white; */
-        font-family: font61345;
-        font-size: 20px;
-    }
-    
-    #papankata{
-        font-family: "sf-pro-rounded";
-        font-weight: bold;
-        text-align: center;
-        font-size: 50px;
-        color:white;
-    }
-
-    #papanbox-navbar{
-        background-image: url("https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818300/papanboxbg_y8zhzq.jpg");
-        background-color: skyblue;
-        width: 100%;
-    }
-
-
-    #papanbox{
-        background-image: url("https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818300/papanboxbg_y8zhzq.jpg");
-        background-color: skyblue;
-        width: 100%;
-    }
-
-</style>
 </head>
 <body>
 <!-- File yang sudah mencoba menggunakan cloudinary.com-->
+<!-- Navbar -->
 <nav class="navbar navbar-expand-md navbar-dark" id="papanbox-navbar">
     <a class="navbar-brand ml-3 " href="index.php"><img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582817859/logov2_nw2od7.png" width="180" height="50" /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,54 +44,61 @@
             </li>
             <li class="nav-item">
             <form class="form-inline my-2 my-lg-1">
-                <button class="btn btn-warning" style="color:white;font-weight:bold;margin-left:2.5px;" type="button">Login</button>
+                <a href="login.php"><button class="btn btn-warning" style="color:white;font-weight:bold;margin-left:2.5px;" type="button">Login</button></a>
             </form>
             </li>
         </ul>
     </div>
 </nav>
+<!-- Navbar End -->
 
+<!-- Board text --> 
 <div class="jumbotron jumbotron-fluid pb-3" id="papanbox">
     <p id="papankata">BELAJAR BAHASA INGGRIS LEBIH MUDAH</p>
     <p id="papankata">DI</p><img height="100" width="250"  style="display: block; margin: auto;" src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582817859/logov2_nw2od7.png"><br/>
     <a href="#"><button  class="btn-lg btn-outline-primary"  style="display: block; margin: auto; background: transparent; color: white;border-width: 2.5px;border-color:white;">MULAI BELAJAR</button></a><br/><br/>
 </div>
+<!-- Board text End -->
 
+<!-- Card Daftar Pertanyaan, Butuh kursus, Kontak kami -->
 <div class="container mb-5">
 <!-- Selain flex, bisa pakai col-md-4 juga -->
     <div class="row text-center">
         <div class="col mt-3">
             <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                 <div class="card-body">
-                    <h3 class="card-title" style="font-family: 'sf-pro-rounded';">Daftar Pertanyaan</h4>
+                    <h3 class="card-title font-default">Daftar Pertanyaan</h4>
                     <img class="card-img-top" src="develop-img/question.png" alt="Kursus">
                     <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary" style="font-family: 'sf-pro-rounded';">Klik Disini</a>
+                    <a href="#" class="btn btn-primary font-default">Klik Disini</a>
                 </div>
             </div>
         </div>
         <div class="col mt-3">
             <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                 <div class="card-body">
-                    <h3 class="card-title" style="font-family: 'sf-pro-rounded';">Butuh Kursus?</h4>
+                    <h3 class="card-title font-default">Butuh Kursus?</h4>
                     <img class="card-img-top" src="develop-img/teaching.png" alt="Kursus">
                     <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary" style="font-family: 'sf-pro-rounded';">Klik Disini</a>
+                    <a href="#" class="btn btn-primary font-default">Klik Disini</a>
                 </div>
             </div>
         </div>
         <div class="col mt-3">
             <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                 <div class="card-body">
-                    <h3 class="card-title" style="font-family: 'sf-pro-rounded';">Kontak Kami</h4>
+                    <h3 class="card-title font-default">Kontak Kami</h4>
                     <img class="card-img-top" src="develop-img/phone-book.png" alt="Kursus">
                     <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary" style="font-family: 'sf-pro-rounded';">Klik Disini</a>
+                    <a href="#" class="btn btn-primary font-default">Klik Disini</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!-- End: Card Daftar Pertanyaan, Butuh kursus, Kontak kami -->
+
+<!-- Foto dan Kalimat pendukung di sebelah foto -->
 <div class="container-fluid">
 <div class="row">
     <div class="col">
@@ -146,11 +117,13 @@
     </div>
 </div> 
 </div>
+<!-- End: Foto dan Kalimat pendukung di sebelah foto -->
 
+<!-- Card developer -->
 <div class="container text-center mt-5 mb-4">
     <div class="row">
         <div class="col">
-            <h1 style="font-family: 'sf-pro-rounded';">PENDAPAT MEREKA TENTANG KAMI</h1>
+            <h1 class="font-default">PENDAPAT MEREKA TENTANG KAMI</h1>
         </div>
     </div>
 </div>
@@ -162,7 +135,7 @@
                 <div class="card" style="width: 18rem;box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <img class="card-img-top" src="develop-img/1.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h4 class="card-title text-center" style="font-family: 'sf-pro-rounded';">Dian Johan</h4>
+                        <h4 class="card-title text-center font-default">Dian Johan</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
@@ -171,7 +144,7 @@
                 <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <img class="card-img-top" src="develop-img/4.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h4 class="card-title text-center" style="font-family: 'sf-pro-rounded';">Ghadah Indri</h4>
+                        <h4 class="card-title text-center font-default">Ghadah Indri</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
@@ -180,7 +153,7 @@
                 <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <img class="card-img-top" src="develop-img/3.png" alt="Card image cap">
                     <div class="card-body">
-                        <h4 class="card-title text-center" style="font-family: 'sf-pro-rounded';">Maulaya Al-Farisi</h4>
+                        <h4 class="card-title text-center font-default">Maulaya Al-Farisi</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
@@ -189,7 +162,9 @@
     </div>
     <!-- <button id="buttonright"></button>-->
 </div>
+<!-- End : Card developer -->
 
+<!-- Website Foot -->
 <div style="background-color:black; padding: 2px 0px 10px 0px;">
 <div class="container mt-5" style="color:white;">
     <div class="row">
@@ -225,5 +200,6 @@
     </div>
 </div>
 </div>
+<!-- Foot Website End -->
 </body>
 </html>

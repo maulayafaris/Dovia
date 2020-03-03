@@ -12,7 +12,8 @@ Project dibuat dengan:
 * MySQL
 
 ## To Do:
-* Membuat halaman login
+* Membuat halaman login dengan sistem backendnya
+* Membuat halaman sign up dengan sistem backendnya
 * Membuat halaman Admin
 * Membuat halaman About
 * Membuat halaman daftar pertanyaan yang sering diajukan
@@ -21,6 +22,10 @@ Project dibuat dengan:
 * Diskusi: Menjadikan sub "Pendapat Mereka Tentang Kami" pada index.php menjadi Menampilkan pengembang dari website atau membiarkannya tetap menjadi sub yang memberikan pendapat orang-orang yang sudah pernah mencoba belajar kursus?
 * Membuat halaman blog
 * Menaruh materi pembelajaran di dalam website
+
+## Pembaruan 0.2
+* Menambahkan file baru bernama login.php dan login.css
+* Tampilan login di ambil dari link https://bootsnipp.com/snippets/dldxB dengan author bernama Raj78
 
 ## Pembaruan 0.0.1-i (0.1-i)
 * Perubahan Pada Index.php:
