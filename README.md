@@ -13,7 +13,7 @@ Project dibuat dengan:
 
 ## To Do:
 * Membuat halaman login dengan sistem backendnya *(Done)*
-* Membuat Tampilan di navbar untuk tidak hanya logout, jadi nantinya akan menjadi menu navbar yang tampil nama orang yang sudah login yang di dalamnya terdapat sub menu yang menampilkan profile, setting, dan logout. seperti pada contoh : https://user-images.githubusercontent.com/656418/44770957-ebc0d880-ab69-11e8-9787-8e810a27c71d.png , kurang lebih gambaran tampilannya akan mirip seperti pada link yang sudah tertera.  
+* Membuat Tampilan di navbar untuk tidak hanya logout, jadi nantinya akan menjadi menu navbar yang tampil nama orang yang sudah login yang di dalamnya terdapat sub menu yang menampilkan profile, setting, dan logout. seperti pada contoh : http://bit.ly/2PLcKuW , kurang lebih gambaran tampilannya akan mirip seperti pada link yang sudah tertera.  
 * Membuat halaman sign up dengan sistem backendnya 
 * Membuat halaman Admin
 * Membuat halaman About
