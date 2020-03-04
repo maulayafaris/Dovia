@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Login member</title>
+    <title>Login Page</title>
     <!-- Offline Bootstrap CSS -->
     <link rel="stylesheet" href="resources/css/bootstrap.css">
     <link rel="stylesheet" href="resources/css/bootstrap.min.css"> 
@@ -32,10 +32,20 @@
       <img src="develop-img/logo-lg.png" id="icon" alt="User Icon" />
     </div>
 
+    <!-- Notif untuk salah email atau password -->
+    <?php
+    if (isset($_GET['pesan'])) {
+        if ($_GET['pesan'] == "gagal") {
+            echo "<script>alert('Login gagal, email/no.telp atau password salah')</script>";
+        }
+    }
+    ?>
+    
+
     <!-- Login Form -->
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="Email atau nomor phone">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+    <form action="auth-login.php" method="post">
+      <input type="text" class="fadeIn second" name="email" placeholder="Email atau nomor telephone">
+      <input type="password" class="fadeIn third" name="password" placeholder="password">
       <input type="submit" class="fadeIn fourth" value="Log In">
     </form>
 
@@ -46,7 +56,7 @@
     <div class="formFooter">
     <a class="underlineHover" href="#" style="color: blue;">Forgot Password?</a>
     </div>
-
+    
   </div>
 </div>
 </body>

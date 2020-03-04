@@ -21,6 +21,14 @@
 
 </head>
 <body>
+<?php
+session_start();
+if (isset($_GET['pesan'])) {
+    if ($_GET['pesan'] == "logout") {
+        echo "<script>alert('Anda berhasil logout')</script>";
+    }
+}
+?>
 <!-- File yang sudah mencoba menggunakan cloudinary.com-->
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md navbar-dark" id="papanbox-navbar">
@@ -42,11 +50,23 @@
             <li class="nav-item">
                 <a class="nav-link" id="menu-nav" href="#">About</a>
             </li>
-            <li class="nav-item">
-            <form class="form-inline my-2 my-lg-1">
-                <a href="login.php"><button class="btn btn-warning" style="color:white;font-weight:bold;margin-left:2.5px;" type="button">Login</button></a>
-            </form>
-            </li>
+            <?php
+            if (!$_SESSION or $_SESSION['status'] == '') { 
+            ?>
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-1">
+                        <a href="login.php"><button class="btn btn-warning" style="color:white;font-weight:bold;margin-left:2.5px;" type="button">Login</button></a>
+                    </form>
+                </li>
+            <?php } 
+            else if($_SESSION['status'] == "login"){
+            ?>
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-1">
+                        <a href="logout.php"><button class="btn btn-warning" style="color:white;font-weight:bold;margin-left:2.5px;" type="button">Logout</button></a>
+                    </form>
+                </li>
+            <?php } ?>
         </ul>
     </div>
 </nav>

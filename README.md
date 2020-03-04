@@ -12,8 +12,9 @@ Project dibuat dengan:
 * MySQL
 
 ## To Do:
-* Membuat halaman login dengan sistem backendnya
-* Membuat halaman sign up dengan sistem backendnya
+* Membuat halaman login dengan sistem backendnya *(Done)*
+* Membuat Tampilan di navbar untuk tidak hanya logout, jadi nantinya akan menjadi menu navbar yang tampil nama orang yang sudah login yang di dalamnya terdapat sub menu yang menampilkan profile, setting, dan logout. seperti pada contoh : https://user-images.githubusercontent.com/656418/44770957-ebc0d880-ab69-11e8-9787-8e810a27c71d.png , kurang lebih gambaran tampilannya akan mirip seperti pada link yang sudah tertera.  
+* Membuat halaman sign up dengan sistem backendnya 
 * Membuat halaman Admin
 * Membuat halaman About
 * Membuat halaman daftar pertanyaan yang sering diajukan
@@ -23,6 +24,12 @@ Project dibuat dengan:
 * Membuat halaman blog
 * Menaruh materi pembelajaran di dalam website
 
+## Pembaruan 0.2a
+* Menambahkan file baru diantara-nya: connect.php, auth-login.php, logout.php, dovia.sql
+* Menambahkan folder baru bernama db yang berisi file database dengan nama dovia.sql
+* Membuat sistem backend untuk halaman login, juga sistem backend pada bagian navbar di file index.php untuk bagian button login dan logout.
+* Membuat sistem peringatan sederhana saat salah memasukkan email atau nomer telephone atau password menggunakan alert js ketika login
+
 ## Pembaruan 0.2
 * Menambahkan file baru bernama login.php dan login.css
 * Tampilan login di ambil dari link https://bootsnipp.com/snippets/dldxB dengan author bernama Raj78
@@ -31,12 +38,12 @@ Project dibuat dengan:
 * menambahkan file logo versi berwarna orange di folder develop-img.
 * menambahkan file bootstrap versi minimal di folder resources/css
 
-## Pembaruan 0.0.1-i (0.1-i)
+## Pembaruan 0.0.1-b (0.1-b)
 * Perubahan Pada Index.php:
   * Memberikan Shadow di bagian yang termasuk class card
   * Mengubah hampir semua teks pada website menjadi jenis font 'sf-pro-rounded'
 
-## Pembaruan 0.0.1-h (0.1-h)
+## Pembaruan 0.0.1-a (0.1-a)
 * Perubahan Pada Index.php :
   * Bagian "Daftar Pertanyaan", "Butuh kursus", "Kontak Kami" sudah di ubah dengan tipe card, lalu ditambahkan gambar yang di ambil dari website https://www.flaticon.com/ . Kekurangan: Pada tampilan mobile, card masih berada pada posisi kiri dan bukan di tengah. 
   
