@@ -24,6 +24,9 @@ Project dibuat dengan:
 * Membuat halaman blog
 * Menaruh materi pembelajaran di dalam website
 
+## Pembaruan 0.2b
+* Memfix tampilan mobille card pada file index.php untuk bagian daftar pertanyaan, 	butuh kursus, dan kontak kami, dan tiga card pendapat mereka tentang kami
+
 ## Pembaruan 0.2a
 * Menambahkan file baru diantara-nya: connect.php, auth-login.php, logout.php, dovia.sql
 * Menambahkan folder baru bernama db yang berisi file database dengan nama dovia.sql
