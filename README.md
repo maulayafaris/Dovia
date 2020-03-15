@@ -14,13 +14,10 @@ Project dibuat dengan:
 ## To Do:
 * Membuat halaman login dengan sistem backendnya *(Done)*
 * Membuat Tampilan di navbar untuk tidak hanya logout, jadi nantinya akan menjadi menu navbar yang tampil nama orang yang sudah login yang di dalamnya terdapat sub menu yang menampilkan profile, setting, dan logout. seperti pada contoh : http://bit.ly/2PLcKuW , kurang lebih gambaran tampilannya akan mirip seperti pada link yang sudah tertera.  
-<<<<<<< HEAD
 * Membuat halaman sign up dengan sistem backendnya *(Done)*
 * Membuat halaman Admin *(Done)*
-=======
 * Membuat halaman sign up dengan sistem backendnya 
-* Membuat halaman Admin
->>>>>>> d827a2e588619b76746bd266ed352aea9eb1a288
+* Membuat halaman Admin *(Done)*
 * Membuat halaman About
 * Membuat halaman daftar pertanyaan yang sering diajukan
 * Membuat halaman yang akan menunjukan harga kursus, peta tempat kursus (Google Maps) beserta detail informasi lokasi.
