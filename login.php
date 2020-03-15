@@ -18,7 +18,6 @@
 
     <!-- Mie Style -->
     <link rel="stylesheet" href="resources/floating-labels.css">
-    <link rel="stylesheet" href="resources/css/univstyle.css">
     
 </head>
 <body>
@@ -51,10 +50,10 @@
 
     <!-- Remind Passowrd -->
     <div id="formFooter">
-      <span>Don't have an account? <a href="#"  class="underlineHover" style="color: blue;">Sign Up</a></span>    
+      <span>Don't have an account? <a href="signup.php"  class="underlineHover" style="color: blue;">Sign Up</a></span>    
     </div>
     <div class="formFooter">
-    <a class="underlineHover" href="#" style="color: blue;">Forgot Password?</a>
+    <a class="underlineHover" href="ubah_pass.php" style="color: blue;">Forgot Password?</a>
     </div>
     
   </div>

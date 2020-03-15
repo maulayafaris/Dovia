@@ -39,13 +39,13 @@ if (isset($_GET['pesan'])) {
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" id="menu-nav" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="menu-nav" href="index.php">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="menu-nav" href="#">YT</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="menu-nav" href="#">Blog</a>
+                <a class="nav-link" id="menu-nav" href="blog.php">Blog</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="menu-nav" href="#">About</a>
@@ -85,17 +85,17 @@ if (isset($_GET['pesan'])) {
 <!-- Selain flex, bisa pakai col-md-4 juga -->
     <div class="row text-center">
         <div class="col mt-3">
-            <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <div class="card container" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                 <div class="card-body">
                     <h3 class="card-title font-default">Daftar Pertanyaan</h4>
-                    <img class="card-img-top" src="develop-img/question.png" alt="Kursus">
+                    <img class="card-img-top" src="develop-img/question.png" alt="Kursus" height="185px">
                     <p class="card-text"></p>
                     <a href="#" class="btn btn-primary font-default">Klik Disini</a>
                 </div>
             </div>
         </div>
         <div class="col mt-3">
-            <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <div class="card container" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                 <div class="card-body">
                     <h3 class="card-title font-default">Butuh Kursus?</h4>
                     <img class="card-img-top" src="develop-img/teaching.png" alt="Kursus">
@@ -105,7 +105,7 @@ if (isset($_GET['pesan'])) {
             </div>
         </div>
         <div class="col mt-3">
-            <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <div class="card container" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                 <div class="card-body">
                     <h3 class="card-title font-default">Kontak Kami</h4>
                     <img class="card-img-top" src="develop-img/phone-book.png" alt="Kursus">
@@ -119,7 +119,7 @@ if (isset($_GET['pesan'])) {
 <!-- End: Card Daftar Pertanyaan, Butuh kursus, Kontak kami -->
 
 <!-- Foto dan Kalimat pendukung di sebelah foto -->
-<div class="container-fluid">
+<div class="container container-fluid">
 <div class="row">
     <div class="col">
             <img src="https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818179/seminar_shspac.png" width="100%" height="100%"/>
@@ -152,7 +152,7 @@ if (isset($_GET['pesan'])) {
     <div class="container mb-4">
         <div class="row">
             <div class="col dev-1">
-                <div class="card" style="width: 18rem;box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <div class="container" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <img class="card-img-top" src="develop-img/1.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title text-center font-default">Dian Johan</h4>
@@ -161,7 +161,7 @@ if (isset($_GET['pesan'])) {
                 </div>
             </div>
             <div class="col dev-2">
-                <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <div class="container" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <img class="card-img-top" src="develop-img/4.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title text-center font-default">Ghadah Indri</h4>
@@ -170,7 +170,7 @@ if (isset($_GET['pesan'])) {
                 </div>
             </div>
             <div class="col dev-3">
-                <div class="card" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <div class="container" style="width: 18rem; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <img class="card-img-top" src="develop-img/3.png" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title text-center font-default">Maulaya Al-Farisi</h4>

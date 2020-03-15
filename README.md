@@ -13,16 +13,31 @@ Project dibuat dengan:
 
 ## To Do:
 * Membuat halaman login dengan sistem backendnya *(Done)*
-* Membuat Tampilan di navbar untuk tidak hanya logout, jadi nantinya akan menjadi menu navbar yang tampil nama orang yang sudah login yang di dalamnya terdapat sub menu yang menampilkan profile, setting, dan logout. seperti pada contoh : https://user-images.githubusercontent.com/656418/44770957-ebc0d880-ab69-11e8-9787-8e810a27c71d.png , kurang lebih gambaran tampilannya akan mirip seperti pada link yang sudah tertera.  
-* Membuat halaman sign up dengan sistem backendnya 
-* Membuat halaman Admin
+* Membuat Tampilan di navbar untuk tidak hanya logout, jadi nantinya akan menjadi menu navbar yang tampil nama orang yang sudah login yang di dalamnya terdapat sub menu yang menampilkan profile, setting, dan logout. seperti pada contoh : http://bit.ly/2PLcKuW , kurang lebih gambaran tampilannya akan mirip seperti pada link yang sudah tertera.  
+* Membuat halaman sign up dengan sistem backendnya *(Done)*
+* Membuat halaman Admin *(Done)*
 * Membuat halaman About
 * Membuat halaman daftar pertanyaan yang sering diajukan
 * Membuat halaman yang akan menunjukan harga kursus, peta tempat kursus (Google Maps) beserta detail informasi lokasi.
 * Membuat halaman daftar kontak yang bisa di hubungi atau hanya pop up saja (bukan tab baru ataupun window baru).
 * Diskusi: Menjadikan sub "Pendapat Mereka Tentang Kami" pada index.php menjadi Menampilkan pengembang dari website atau membiarkannya tetap menjadi sub yang memberikan pendapat orang-orang yang sudah pernah mencoba belajar kursus?
-* Membuat halaman blog
+* Membuat halaman blog *(Done)*
 * Menaruh materi pembelajaran di dalam website
+* Membuat sistem komentar di post
+* Membuat sistem next page di halaman blog.php
+* Membuat sistem dan tampilan forget password *(Done)*
+* Mencoba mengalihkan type font yang masih di cloud ke local agar mempercepat proses load website
+
+## Pembaruan 0.4
+* Menyelesaikan halaman admin yang memuat beberapa halaman yaitu: Halaman Dashboard, Postingan, Kategori, dan halaman tambah admin. Untuk tampilannya menggunakan template dari wrappixel.com. link : http://bit.ly/38Rrwaz
+* Membuat Halaman SignUp user beserta sistemnya. Untuk tampilan masih mengambil dari http://bit.ly/2xECp2t yang tampilannya sama seperti tampilan pada halaman login
+* Membuat halaman yang menampilkan semua postingan blog secara sekilas + sistemnya (belum termasuk sistem next page).
+* Membuat halaman preview full salah satu content blog. untuk komentar belum ada sistemnya. 
+* Membuat halaman yang menampilkan semua postingan blog sesuai kategori secara sekilas + sistemnya (belum termasuk sistem next page).
+
+
+## Pembaruan 0.2b
+* Memfix tampilan mobile card pada file index.php untuk bagian daftar pertanyaan, butuh kursus, dan kontak kami, dan tiga card pendapat mereka tentang kami
 
 ## Pembaruan 0.2a
 * Menambahkan file baru diantara-nya: connect.php, auth-login.php, logout.php, dovia.sql
@@ -32,7 +47,7 @@ Project dibuat dengan:
 
 ## Pembaruan 0.2
 * Menambahkan file baru bernama login.php dan login.css
-* Tampilan login di ambil dari link https://bootsnipp.com/snippets/dldxB dengan author bernama Raj78
+* Tampilan login di ambil dari link http://bit.ly/2xECp2t dengan author bernama Raj78
 * merubah file index.php 
 * membuat univstyle.css yang berfungsi sebagai file css yang di panggil untuk keperluan seperti font, navbar, dan lainnya. 
 * menambahkan file logo versi berwarna orange di folder develop-img.
