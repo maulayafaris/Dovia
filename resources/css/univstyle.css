@@ -1,9 +1,23 @@
-@import url('https://www.fontify.me/wf/5cfc1e12b698845fbc0ee9ac1b686dfd');
+/* @import url('https://www.fontify.me/wf/5cfc1e12b698845fbc0ee9ac1b686dfd'); */
 
 @font-face {
     font-family: "sf-pro-rounded";
-    src: url("../font/sf-pro-rounded.ttf") format("truetype");
+    src: url("sf-pro-rounded.ttf");
+    /* format("truetype") */
 }
+
+.font-default {
+    font-family: "sf-pro-rounded";
+}
+
+#papankata {
+    font-family: "sf-pro-rounded";
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
 
 body {
     background-color: #F8F8F8;
@@ -15,13 +29,6 @@ body {
     font-size: 20px;
 }
 
-#papankata {
-    font-family: "sf-pro-rounded";
-    font-weight: bold;
-    text-align: center;
-    font-size: 50px;
-    color: white;
-}
 
 #papanbox-navbar {
     background-image: url("https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818300/papanboxbg_y8zhzq.jpg");
@@ -34,8 +41,4 @@ body {
     background-image: url("https://res.cloudinary.com/dw5hlq8f7/image/upload/v1582818300/papanboxbg_y8zhzq.jpg");
     background-color: skyblue;
     width: 100%;
-}
-
-.font-default {
-    font-family: "sf-pro-rounded";
 }

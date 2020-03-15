@@ -46,5 +46,5 @@ $data = mysqli_fetch_assoc($query);
     <h3>Nama Kategori :</h3> 
     <input class="form-control" type="text" name="nama" value="<?=$data['nama_kategori'];?>"><br>
 </div>
-    <input type="submit" name="simpan_kategori" value="SIMPAN">
+    <input class="btn btn-primary mb-2" type="submit" name="simpan_kategori" value="SIMPAN">
 </form>

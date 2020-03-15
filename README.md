@@ -28,7 +28,7 @@ Project dibuat dengan:
 * Membuat sistem komentar di post
 * Membuat sistem next page di halaman blog.php
 * Membuat sistem dan tampilan forget password *(Done)*
-* Mencoba mengalihkan type font yang masih di cloud ke local agar mempercepat proses load website
+* Mencoba mengalihkan type font yang masih di cloud ke local agar mempercepat proses load website *(Done)*
 
 ## Pembaruan 0.4
 * Menyelesaikan halaman admin yang memuat beberapa halaman yaitu: Halaman Dashboard, Postingan, Kategori, dan halaman tambah admin. Untuk tampilannya menggunakan template dari wrappixel.com. link : http://bit.ly/38Rrwaz
